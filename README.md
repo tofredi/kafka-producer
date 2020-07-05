@@ -14,6 +14,7 @@ Also you can specify `bootstrap.servers` config with `BOOTSTRAP_SERVERS` env.
 $ docker build -t my-kafka-producer .
 $ docker run -e KAFKA_CONFIG_PATH=path/to/your/config.properties -e BOOTSTRAP_SERVERS=<bootstrap-servers> -p 8080:8080 my-kafka-producer
 ```
+And go to [localhost:8080/kafka-producer/swagger-ui.html][local] in your browser to see the API swagger-ui 
 
 #### Todos
-- Add docker compose file with a simple Kafka cluster for local tests
+- Add docker compose file with a simple Kafka cluster for local 
