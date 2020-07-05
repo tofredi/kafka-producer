@@ -1,4 +1,4 @@
-# KAFKA PRODUCER. HTTP API REST
+# KAFKA PRODUCER. API REST
 This repository provides a simple Spring Boot app with an implementation of Kafka Producer for hands-on with Kafka.
 This client will connect to your cluster and send messages through HTTP method POST.
 
