@@ -17,4 +17,4 @@ $ docker run -e KAFKA_CONFIG_PATH=path/to/your/config.properties -e BOOTSTRAP_SE
 And go to [localhost:8080/kafka-producer/swagger-ui.html][local] in your browser to see the API swagger-ui 
 
 #### Todos
-- Add docker compose file with a simple Kafka cluster for local 
+- Add docker compose file with a simple Kafka cluster for local tests
